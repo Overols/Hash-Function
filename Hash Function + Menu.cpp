@@ -262,10 +262,9 @@ int main() {
             if (strcmp(key, "exit") == 0) break;
             insertFunction(key, hashFunction);
         }
+	// tampilkan hash table
+	displayHT(); 
     }
-
-    // tampilkan hash table
-    displayHT();
-
+	
     return 0;
 }
